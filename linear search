@@ -1,0 +1,13 @@
+def linearsearch(array,n,k):
+     for i in range(n):
+      if(array[i]==k):
+        return;
+array=[26,25,5,6,4,7]
+n=int(input("enter a number")
+k=len(array)
+result=linearsearch("enter a number")
+result=linearsearch(array,n,k)
+if(result==1)
+   print("element not found")
+else
+   print("element found at index:" result)
